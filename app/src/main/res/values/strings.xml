@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RozkladKpi</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="action_settings">Сменить группу</string>
+
+    <string name="enter_rozklad_kpi">Рассписание КПИ</string>
+    <string name="enter_name_group">Название группы</string>
+    <string name="enter_name_group_error">Такой группы не существует!</string>
+    <string name="enter_go_button">Погнали!</string>
+
+    <string name="main_week">Тиждень</string>
+    <string name="main_week_I">I</string>
+    <string name="main_week_II">II</string>
+    <string name="main_change_button">Change</string>
+    <string name="main_settings_button">Settings</string>
+
+    <string name="settings_delete_groups_button">Видалити всі назви груп з бази данних.</string>
+    <string name="settings_delete_all_data_button">Видалити всю інформацію з бази данних.</string>
+    <string name="settings_delete">Видалити</string>
+    <string name="settings_groups_text">Список груп:</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enter_activty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maste.rozkladkpi2.EnterActivity"
+    android:layout_weight="3">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enter_rozklad_kpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_textview_rozklad_kpi"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <EditText
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_name_group"
+            android:id="@+id/enter_edit"
+            android:textColorHighlight="@color/blue_3"/>
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:text="@string/enter_go_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_button" />
+    </LinearLayout>
+</LinearLayout>
